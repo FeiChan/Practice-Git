@@ -22,6 +22,8 @@ First and foremost, each of you will need a github account. It is fairly easy to
 Before continuing with the rest of the tutorial it is highly recommended that you go through the hello world tutorial offered by GitHub to get familiar with the github workflow.<br>
 [Hello World Tutorial](https://guides.github.com/activities/hello-world/)
 
+Or if you're intrested in trying out git from the terminal, try out this interactive tutorial<br>
+[Hello World Interactive Tutorial](https://try.github.io/levels/1/challenges/1)
 
 ## Step 2
 Before doing this step you have to install Git client in your system. 
@@ -146,6 +148,8 @@ Codecademy has a really good tutorial on using the git command line.
 Once you're familiar with command line tools, it is time to get hands on approach on that as well.
 Use git command line tools to do something similar as to what you've done in step 2. Since you've already cloned the file onto your local system. A new folder will be visible called `Practice-Git`.
 
+If you have any Questions or get stuck, check the `submit-a-pull-request` folder, in which 10 people have already completed the task. Follow their steps to complete the task.
+
 * Go into you fork folder on your system using your command line and go into the `submit-a-pull-request` folder. Inside the folder make an another folder with you user name (hint : `mkdir <Your_username>`).
 
 ```
@@ -154,13 +158,15 @@ $mkdir <your_username>
 $cd <your_username>
 ```
 <br>
+<img src="http://i.imgur.com/keR8wxD.png"></img>
+<br>
 
 * Inside the folder with your name, make a file named hello-world.md and inside it add something about yourself using an editor.
 ```
 $touch hello-world.md
 ```
-
 <br>
+<img src="http://i.imgur.com/N2dJ5am.png"></img>
 <br>
 
 * Now that your file is ready to be online, you need to make git track your new files.
@@ -170,17 +176,25 @@ $touch hello-world.md
 ```
 $git add .
 ```
+<br>
+<img src="http://i.imgur.com/Z4LhVpo.png"></img>
+<br>
 * Now that's done, you have to save your file, which in git is known as commit. You can do it by.
 
 ```
 $git commit -m "My First Commit."
 ```
+<img src="http://i.imgur.com/Xre3XRA.png"></img>
 * The you have to upload it to Github website. Do it by
 ```
 $git push
 ```
 * It will ask for your credentials for logging in.
+<img src ="http://i.imgur.com/tdcpCPF.png"></img>
 
 * Now after it uploads the new file, through the browser go to `https://github.com/<your_username>/Practice-Git`, where `<your_username>` is your github username.
 
-* Now your in your copy of main file. To merge it with the main copy click the option make a pull request.
+* Now your in your copy of main file. To merge it with the main repository goto https://www.github.com/fossmec/practice-git and press the option "New Pull request". Set the head for as `<your-username>/practice-git` and base fork as `fossmec/practice-git`. Create a pull request and you're done!
+<img src ="http://i.imgur.com/MBAcznv.png"></img>
+
+<img src="http://i.imgur.com/YCBp1oE.png"></img>
